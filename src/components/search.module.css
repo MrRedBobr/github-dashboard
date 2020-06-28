@@ -1,0 +1,35 @@
+.item{
+	background-color: #1C2939;
+	margin: 0 10px;
+	padding: 10px;
+	list-style: none;
+	border-top: 1px solid rgb(63, 63, 63);
+	display: flex;
+}
+.item:hover{
+	background-color: #1c2b39;
+}
+.item>div{
+	padding-right: 10px;
+}
+.item>div>div>a{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+body{
+	background-color: #0C1017;
+	color: #dbdcdf;
+}
+.icon{
+	padding-top: 3px;
+	width: 15px;
+	fill: #dbdcdf;
+}
+.url{
+	background-color: orange;
+	text-decoration: none;
+	color: black;
+	border-radius: 50%;
+	height: 15px;
+	padding: 0 2px 1px 2px!important;
+}

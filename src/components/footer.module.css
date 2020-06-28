@@ -1,0 +1,22 @@
+.footer{
+	background-color: #16202B;
+	margin: 10px;
+	padding: 10px;
+	justify-content: center;
+	display: flex;
+}
+.footer > input{
+	color: #fff;
+	background-color: #1C2939;
+	padding: 2px;
+	border-radius: 2px;
+	border: 1px solid #111;
+
+}
+.footer > input:focus{
+	background-color: #3C8CF0;
+	border-color: #75aef5;
+	border-radius: 2px;
+	outline: none;
+	box-shadow: 0 0 8px 0 #3069B2;
+}
