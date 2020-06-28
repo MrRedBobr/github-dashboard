@@ -1,11 +1,14 @@
-.paginator{
+.paginator {
 	justify-content: center;
 	display: flex;
 	margin: 5px 0;
 }
-.paginator>a:hover{
+.paginator > a:hover {
 	color: rgb(253, 188, 188);
 }
-.activePage{
+.activePage {
 	color: red;
+}
+.paginator > i {
+	margin: 0 5px;
 }
